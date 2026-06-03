@@ -167,11 +167,11 @@ nav.scrolled {
 
 /* HERO */
 .hero {
-    min-height: 100vh;
+    min-height: calc(100vh - 70px);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 9rem 6vw 5rem;
+    justify-content: flex-start;
+    padding: 4rem 6vw 5rem;
     position: relative;
     overflow: hidden;
 }
