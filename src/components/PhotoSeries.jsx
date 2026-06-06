@@ -1,4 +1,7 @@
 import PhotoFrame from "./PhotoFrame.jsx";
+import foto1 from "../assets/foto-1.webp";
+import foto2 from "../assets/foto-2.webp";
+import foto3 from "../assets/foto-3.webp";
 
 export default function PhotoSeries() {
   return (
@@ -22,7 +25,7 @@ export default function PhotoSeries() {
 
       {/* FOTO 1 */}
       <div className="photo-entry">
-        <PhotoFrame frameClass="ph-1" alt="Conectado">
+        <PhotoFrame frameClass="ph-1" alt="Conectado" image={foto1}>
           <div className="ph-screen"></div>
           <div className="ph-silhouette"></div>
         </PhotoFrame>
@@ -59,7 +62,7 @@ export default function PhotoSeries() {
 
       {/* FOTO 2 */}
       <div className="photo-entry rev">
-        <PhotoFrame frameClass="ph-2" alt="Silencio Premium">
+        <PhotoFrame frameClass="ph-2" alt="Silencio Premium" image={foto2}>
           <div className="ph-sign">
             <p>Zona de acceso restringido</p>
             <h3>
@@ -102,7 +105,7 @@ export default function PhotoSeries() {
 
       {/* FOTO 3 */}
       <div className="photo-entry">
-        <PhotoFrame frameClass="ph-3" alt="Presencia ausente">
+        <PhotoFrame frameClass="ph-3" alt="Presencia ausente" image={foto3}>
           <div className="ph-fig">
             <div className="ph-fig-head"></div>
             <div className="ph-fig-phone"></div>
